@@ -1,0 +1,63 @@
+body {
+  color: #000;
+}
+
+._band {
+  background: #F6F6F6;
+}
+
+.social span {
+  color: #828282;
+}
+
+.contact__send {
+  background: #000;
+  color: #fff;
+}
+
+.contact__send:hover {
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background: #fff;
+}
+
+.header__content {
+  border-bottom: 2px solid #828282;
+}
+
+.menu__items .item > a {
+  color: #828282;
+}
+
+.menu__items .item > a:hover {
+  color: #000;
+}
+
+.item__top {
+  color: #828282;
+}
+
+@media (max-width: 767.98px) {
+  .header__content {
+    border: none;
+  }
+
+  .menu {
+    background: #fff;
+  }
+
+  .menu__burger:before {
+    background: #000;
+  }
+
+  .menu__burger:after {
+    background: #000;
+  }
+
+  .menu__burger span {
+    background: #000;
+  }
+}
